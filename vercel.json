@@ -2,7 +2,9 @@
   "framework": "nextjs",
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build",
-  "nodeVersion": "20.x",
+  "engines": {
+    "node": "20.x"
+  },
   "env": {
     "NODE_VERSION": "20"
   }
