@@ -7,7 +7,7 @@ import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 import Image from "next/image";
-import { Github, Linkedin } from "lucide-react";
+import { Github, Linkedin, Bike } from "lucide-react";
 
 export default function Home() {
   const roles = [
@@ -26,7 +26,7 @@ export default function Home() {
         "Led go-to-market motions for PLG sales, aligning product, growth, and sales to unlock efficient pipeline in product-led organizations.",
     },
     {
-      title: "Director of Sales Engineering",
+      title: "Head of Sales Engineering",
       company: "Sift",
       years: "2017-2021",
       blurb:
@@ -49,7 +49,7 @@ export default function Home() {
     "Enterprise Enablement",
     "APIs & Webhooks",
     "Analytics",
-    "Team Leadership",
+    "Leadership",
   ];
 
   const photoUrl =
@@ -92,7 +92,7 @@ export default function Home() {
                     </Button>
                   </TooltipTrigger>
                   <TooltipContent className="rounded-none">
-                    🌴 Sunny with strong coffee and good surf
+                    🌴 Sunny with a chance of coffee and burritos
                   </TooltipContent>
                 </Tooltip>
                 {/* Socials */}
@@ -105,6 +105,11 @@ export default function Home() {
                   <a href="https://github.com/smoock" aria-label="GitHub">
                     <Button variant="outline" size="icon" className="h-9 w-9 rounded-none border-2 shadow-[3px_3px_0_0_rgba(0,0,0,0.2)]">
                       <Github className="h-4 w-4" />
+                    </Button>
+                  </a>
+                  <a href="https://www.strava.com/athletes/36793340" aria-label="Strava">
+                    <Button variant="outline" size="icon" className="h-9 w-9 rounded-none border-2 shadow-[3px_3px_0_0_rgba(0,0,0,0.2)]">
+                      <Bike className="h-4 w-4" />
                     </Button>
                   </a>
                 </div>
